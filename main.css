@@ -1,0 +1,32 @@
+body {
+	font-family: Roboto;
+	background-color: black;
+	color: white;
+}
+
+#body {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+header {
+	background-color: ;
+}
+
+#header-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header-links-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#header-links {
+	display: inline;
+	margin: 10px;
+}
