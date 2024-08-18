@@ -1,32 +1,90 @@
 body {
-	font-family: Roboto;
-	background-color: black;
+	font-family: Roboto, sans-serif;
 	color: white;
-}
-
-#body {
-	width: 80%;
-	display: block;
-	margin: auto;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #1F2937;
 }
 
 header {
-	background-color: ;
+	display: inline;
+
 }
 
 #header-div {
+	background-color: #1F2937;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px;
+	width: 80%;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	height: 100%; /* Ensure the parent element has height */
+	box-sizing: border-box;
 }
-
+  
 #header-links-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	font-size: 18px;
+	color: #E5E7EB; /* Corrected to set text color */
+	text-decoration: none;
 }
 
-#header-links {
-	display: inline;
-	margin: 10px;
+#header-links-container a {
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #E5E7EB;
+}
+  
+#header-div h1 {
+	font-size: 24px;
+	color: #F9FAF8; /* Corrected to set text color */
+}
+  
+#section1 {
+	background-color: #1F2937;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+
+#hero-text {
+	margin-right: 80px;
+}
+
+#hero-text h1{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#hero-text p{
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+#hero-text button{
+	background-color: #3882F6;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	padding: 5px 15px 5px 15px;
+}
+
+#hero-image {
+	box-sizing: border-box;
+	background-color: #E5E7EB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	margin-left: 80px;
 }
